@@ -1,0 +1,106 @@
+{
+  "nav": {
+    "orders": "ORDERS",
+    "groups": "GROUPS",
+    "products": "PRODUCTS",
+    "users": "USERS",
+    "settings": "SETTINGS",
+    "analytics": "Analytics",
+    "logout": "Logout"
+  },
+  "analyticsPage": {
+    "title": "Analytics & Maps",
+    "subtitle": "Inventory statistics and geographic location",
+    "chartTitle": "Product Types Breakdown",
+    "mapTitle": "Company Warehouse Location",
+    "loading": "Loading data..."
+  },
+  "header": {
+    "searchPlaceholder": "Search...",
+    "tabs": "Tabs"
+  },
+  "modalDeleteOrder": {
+    "title": "Delete Order",
+    "question": "Are you sure you want to delete the order",
+    "warning": "Deleting the order will also remove all associated products.",
+    "cancel": "Cancel",
+    "confirm": "Delete"
+  },
+  "orderDetails": {
+    "title": "Order Details",
+    "orderId": "Order ID:",
+    "productsTitle": "Products in order:",
+    "noProducts": "There are no products in this order yet.",
+    "type": "Type:"
+  },
+  "orderTable": {
+    "empty": "The list of orders is empty",
+    "headers": {
+      "title": "Title",
+      "productsCount": "Products",
+      "dateLong": "Date (long)",
+      "dateShort": "Date (short)",
+      "total": "Total",
+      "actions": "Actions"
+    },
+    "pieces": "pcs.",
+    "deleteTooltip": "Delete order"
+  },
+  "ordersPage": {
+    "title": "Orders",
+    "totalOrders": "Total orders:",
+    "loading": "Loading...",
+    "deleteError": "Error deleting order"
+  },
+  "productsPage": {
+    "title": "Products",
+    "subtitle": "Inventory management and type filtering",
+    "filterType": "Type:",
+    "allTypes": "All types",
+    "found": "Found:",
+    "loading": "Loading...",
+    "deleteError": "Error deleting product"
+  },
+  "productTable": {
+    "title": "Product Name",
+    "type": "Type",
+    "guaranteeLong": "Guarantee (long format)",
+    "guaranteeShort": "Guarantee (short format)",
+    "prices": "Price in currencies",
+    "order": "Order",
+    "actions": "Actions",
+    "empty": "No products found",
+    "noPrices": "No prices",
+    "from": "From:",
+    "to": "To:",
+    "deleteTooltip": "Delete product"
+  },
+  "modalDeleteProduct": {
+    "title": "Delete Product",
+    "question": "Are you sure you want to delete product",
+    "warning": "This action will delete the record from the database.",
+    "cancel": "Cancel",
+    "confirm": "Delete"
+  },
+  "loginPage": {
+    "title": "Sign In",
+    "emailLabel": "Email",
+    "passwordLabel": "Password",
+    "submit": "Sign In",
+    "loading": "Signing in...",
+    "noAccount": "Don't have an account?",
+    "register": "Sign up",
+    "errorDefault": "Error signing in"
+  },
+  "registerPage": {
+    "title": "Create Account",
+    "emailLabel": "Email",
+    "passwordLabel": "Password",
+    "submit": "Sign Up",
+    "loading": "Signing up...",
+    "success": "Registration successful! Redirecting to login...",
+    "hasAccount": "Already have an account?",
+    "login": "Sign in",
+    "errorDefault": "Error during registration"
+  }
+}

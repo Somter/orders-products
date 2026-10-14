@@ -1,0 +1,106 @@
+{
+  "nav": {
+    "orders": "ПРИХОД",
+    "groups": "ГРУППЫ",
+    "products": "ПРОДУКТЫ",
+    "users": "ПОЛЬЗОВАТЕЛИ",
+    "settings": "НАСТРОЙКИ",
+    "analytics": "Аналитика",
+    "logout": "Выход"
+  },
+  "analyticsPage": {
+    "title": "Аналитика и Карты",
+    "subtitle": "Статистика номенклатуры и географическое расположение",
+    "chartTitle": "Соотношение типов продуктов",
+    "mapTitle": "Расположение склада компании",
+    "loading": "Загрузка данных..."
+  },
+  "header": {
+    "searchPlaceholder": "Поиск...",
+    "tabs": "Вкладок"
+  },
+  "modalDeleteOrder": {
+    "title": "Удаление прихода",
+    "question": "Вы действительно хотите удалить приход",
+    "warning": "Вместе с приходом будут удалены все привязанные к нему продукты.",
+    "cancel": "Отмена",
+    "confirm": "Удалить"
+  },
+  "orderDetails": {
+    "title": "Детали прихода",
+    "orderId": "ID прихода:",
+    "productsTitle": "Продукты в приходе:",
+    "noProducts": "В этом приходе пока нет продуктов.",
+    "type": "Тип:"
+  },
+  "orderTable": {
+    "empty": "Список приходов пуст",
+    "headers": {
+      "title": "Название",
+      "productsCount": "Продуктов",
+      "dateLong": "Дата (длинная)",
+      "dateShort": "Дата (короткая)",
+      "total": "Сумма",
+      "actions": "Действия"
+    },
+    "pieces": "шт.",
+    "deleteTooltip": "Удалить приход"
+  },
+  "ordersPage": {
+    "title": "Приходы",
+    "totalOrders": "Всего приходов:",
+    "loading": "Загрузка...",
+    "deleteError": "Ошибка при удалении прихода"
+  },
+  "productsPage": {
+    "title": "Продукты",
+    "subtitle": "Управление номенклатурой и фильтрация по типам",
+    "filterType": "Тип:",
+    "allTypes": "Все типы",
+    "found": "Найдено:",
+    "loading": "Загрузка...",
+    "deleteError": "Ошибка при удалении продукта"
+  },
+  "productTable": {
+    "title": "Название продукта",
+    "type": "Тип",
+    "guaranteeLong": "Гарантия (длинный формат)",
+    "guaranteeShort": "Гарантия (короткий формат)",
+    "prices": "Цена в валютах",
+    "order": "Приход",
+    "actions": "Действия",
+    "empty": "Продукты не найдены",
+    "noPrices": "Нет цен",
+    "from": "С:",
+    "to": "По:",
+    "deleteTooltip": "Удалить продукт"
+  },
+  "modalDeleteProduct": {
+    "title": "Удаление продукта",
+    "question": "Вы действительно хотите удалить продукт",
+    "warning": "Это действие удалит запись из базы данных.",
+    "cancel": "Отмена",
+    "confirm": "Удалить"
+  },
+  "loginPage": {
+    "title": "Вход в систему",
+    "emailLabel": "Email",
+    "passwordLabel": "Пароль",
+    "submit": "Войти",
+    "loading": "Вход...",
+    "noAccount": "Нет аккаунта?",
+    "register": "Зарегистрироваться",
+    "errorDefault": "Ошибка при входе в систему"
+  },
+  "registerPage": {
+    "title": "Регистрация аккаунта",
+    "emailLabel": "Email",
+    "passwordLabel": "Пароль",
+    "submit": "Зарегистрироваться",
+    "loading": "Регистрация...",
+    "success": "Регистрация прошла успешно! Перенаправление на вход...",
+    "hasAccount": "Уже есть аккаунт?",
+    "login": "Войти",
+    "errorDefault": "Ошибка при регистрации"
+  }
+}
