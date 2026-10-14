@@ -44,12 +44,12 @@ To run this project locally, make sure you have the following tools installed on
    ```bash
    cd orders-products
 
-2. ** Start the application using Docker Compose:
+2. **Start the application using Docker Compose:**
     This command will build multi-stage images, launch the MySQL database container, automatically apply database migrations, run the seed script with initial test data, and start both the backend and frontend services:
     ```bash
     docker compose up --build
 
-3. **Access the application:
+3. **Access the application:**
      
      *   **Frontend (Next.js SPA):** http://localhost:3000
      *   **Backend API (Node.js):** http://localhost:5000
@@ -81,3 +81,8 @@ docker compose down -v
 | **Frontend SPA** (Next.js) | `3000` | [http://localhost:3000](http://localhost:3000) |
 | **Backend API** (Node.js) | `5000` | [http://localhost:5000](http://localhost:5000) |
 | **MySQL Database** | `3307` | Host: `localhost`<br>Port: `3307`<br>Database: `orders_products_db`<br>User: `root`<br>Password: `admin` |
+
+## Demo & Live Application
+
+- **Live Demo (Railway):** [https://perfect-miracle-production-1939.up.railway.app](https://perfect-miracle-production-1939.up.railway.app)
+- **Video Walkthrough:** [https://drive.google.com/file/d/1QkDikOwMpirJORYkqVqHVouyXK4hqExk/view?usp=sharing]
